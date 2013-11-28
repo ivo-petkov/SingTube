@@ -1,0 +1,13 @@
+C:\Users\Iany\Documents\GitHub\Win8MisicAppliccation\UltimateMusicTube\UltimateMusicTube\bin\Debug\resources.pri
+C:\Users\Iany\Documents\GitHub\Win8MisicAppliccation\UltimateMusicTube\UltimateMusicTube\bin\Debug\AppxManifest.xml
+C:\Users\Iany\Documents\GitHub\Win8MisicAppliccation\UltimateMusicTube\UltimateMusicTube\bin\Debug\UltimateMusicTube.build.appxrecipe
+C:\Users\Iany\Documents\GitHub\Win8MisicAppliccation\UltimateMusicTube\UltimateMusicTube\bld\Debug\priconfig.xml.intermediate
+C:\Users\Iany\Documents\GitHub\Win8MisicAppliccation\UltimateMusicTube\UltimateMusicTube\bld\Debug\layout.resfiles.intermediate
+C:\Users\Iany\Documents\GitHub\Win8MisicAppliccation\UltimateMusicTube\UltimateMusicTube\bld\Debug\resources.resfiles.intermediate
+C:\Users\Iany\Documents\GitHub\Win8MisicAppliccation\UltimateMusicTube\UltimateMusicTube\bld\Debug\pri.resfiles.intermediate
+C:\Users\Iany\Documents\GitHub\Win8MisicAppliccation\UltimateMusicTube\UltimateMusicTube\bld\Debug\priconfig.xml
+C:\Users\Iany\Documents\GitHub\Win8MisicAppliccation\UltimateMusicTube\UltimateMusicTube\bld\Debug\layout.resfiles
+C:\Users\Iany\Documents\GitHub\Win8MisicAppliccation\UltimateMusicTube\UltimateMusicTube\bld\Debug\resources.resfiles
+C:\Users\Iany\Documents\GitHub\Win8MisicAppliccation\UltimateMusicTube\UltimateMusicTube\bld\Debug\pri.resfiles
+C:\Users\Iany\Documents\GitHub\Win8MisicAppliccation\UltimateMusicTube\UltimateMusicTube\bld\Debug\LanguageQualifiers.txt
+C:\Users\Iany\Documents\GitHub\Win8MisicAppliccation\UltimateMusicTube\UltimateMusicTube\bld\Debug\ProjectArchitectures.txt

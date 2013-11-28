@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="ms-design-extensionType" content="Search" />
+    <title>Search Contract</title>
+
+    <!-- WinJS references -->
+    <link href="/pages/searchresults/searchresults.css" rel="stylesheet" />
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/data.js"></script>
+</head>
+<body>
+    <!-- This template is used to display each item in the ListView declared
+         below. -->
+    <div id="search-result-template" data-win-control="WinJS.Binding.Template">           
+        <img class="search-result-list-image" src="#"
+             data-win-bind="src: thumbnailImgUrl"/>
+        <div class="search-result-list-title-holder">
+            <span class="search-result-list-title"
+                data-win-bind="innerText: title"></span>
+        </div>            
+    </div>
+
+    <!-- The content that will be loaded and displayed. -->
+    <div class="searchresults fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <div class="titlearea">
+                <h1 class="pagetitle win-type-ellipsis">Video Search Results</h1>
+            </div>
+        </header>
+
+        <section aria-label="Main content" role="main">
+            <div id="search-results-list" data-win-control="WinJS.UI.ListView"
+                 data-win-options="{
+                        itemDataSource: ViewModels.searchResults.dataSource,
+                        itemTemplate: select('#search-result-template'),
+                        oniteminvoked: Commands.addAndPlay,
+                    }">
+            </div>
+        </section>
+    </div>
+
+    <!--appbar control-->
+    <div id="appbar" data-win-control="WinJS.UI.AppBar" data-win-options="">
+        <button
+            data-win-control="WinJS.UI.AppBarCommand"
+            data-win-options="{id:'cmd-add-selected',label:'Add Selected to Playlist',icon:'add',
+                section:'selection',tooltip:'Add Selected to Playlist'}">
+        </button>
+        <button
+            data-win-control="WinJS.UI.AppBarCommand"
+            data-win-options="{id:'cmd-view-playlist',label:'View Plalist',icon:'list',
+                section:'global',tooltip:'View Plalist'}">
+        </button>
+
+    </div>
+</body>
+</html>

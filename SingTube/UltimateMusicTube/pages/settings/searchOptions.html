@@ -1,0 +1,25 @@
+﻿<!doctype HTML>
+<html>
+    <head>
+        <title>Search Options</title>
+        <script src="searchOptions.js"></script>
+    </head>
+    <body>
+        <div data-win-control="WinJS.UI.SettingsFlyout" 
+            aria-label="Options search settings"
+             data-win-options="{settingsCommandId:'searchOptions', width:'narrow'}">
+                <div class="win-ui-dark win-header">
+                       <button type="button" onclick="WinJS.UI.SettingsFlyout.show()" class="win-backbutton"></button>
+                       <div class="win-label">Search Options</div>
+                </div>                
+                <div class="win-content ">
+                  <div class="win-settings-section">
+                      <h3>Search results number:</h3>
+                      <input id="search-number" type="range" min="1" max="20">
+                      <button id="save" type="button">Save</button>   
+                      <span id="settings-msg" style="display:none;">Settings saved</span>       
+                  </div>
+             </div>
+        </div>
+    </body>
+</html>

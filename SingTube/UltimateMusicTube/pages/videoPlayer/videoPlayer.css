@@ -1,0 +1,78 @@
+﻿.videoPlayer section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background: #C8C8C8;      
+}
+
+#playlist-list {
+    padding-top: 15px;
+    width: 640px;
+    height: 200px;
+    background: #2f4f4f;
+}
+
+.video-result-list-image {
+    width: 100px;
+    padding: 5px;
+}
+
+.video-result-list-title {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 22px;
+    position: absolute;
+}
+
+#lyrics{
+    float: right;
+    margin-right: 320px;
+    height: 375px;
+    width: 300px;
+    background: #2f4f4f;
+    padding: 5px;
+    overflow: scroll;  
+}
+
+header {
+     background: #2f4f4f;   
+}
+
+section {
+    padding-top: 20px;
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .videoPlayer section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    iframe {
+        width: 280px;
+        height: 210px;
+    }
+
+    #playlist-list {
+        max-width: 280px;
+    }
+
+    #lyrics {
+        margin: 0;
+        position: absolute;
+        bottom: 30px;
+        height: 120px;
+        width: 270px;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .videoPlayer section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
